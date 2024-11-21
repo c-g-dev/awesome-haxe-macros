@@ -4,7 +4,7 @@ A curated list of articles, examples, and other resources for the Haxe macro sys
 
 ## What are macros in Haxe?
 
-In Haxe, macros are preprocessor functions included in source code which transform and generate syntax during compilation. It does not preprocess the raw text of the source code, but rather directly edits the internal abstract syntax tree (AST) of the compiler. As the [manual] (https://haxe.org/manual/macro.html) describes them:
+In Haxe, macros are preprocessor functions included in source code which transform and generate syntax during compilation. They do not preprocess the raw text of the source code, but rather directly edit the internal abstract syntax tree (AST) of the compiler. As the [manual] (https://haxe.org/manual/macro.html) describes them:
 
 > A basic macro is a syntax-transformation. It receives zero or more expressions and also returns an expression. If a macro is called, it effectively inserts code at the place it was called from. In that respect, it could be compared to a preprocessor like `#define` in C++, but a Haxe macro is not a textual replacement tool.
 
