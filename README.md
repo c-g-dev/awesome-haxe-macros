@@ -50,4 +50,4 @@ In Haxe, macros are preprocessor functions included in source code which transfo
 <br/>
 <br/>
 
-Definitely a lot still missing, I am just updating this as I remember or encounter different things. If you want to add to this list, raise a PR or contact me directly. Mostly looking for how-to guides, gists, concise examples or unique, creative examples.
+Definitely a lot still missing, I am just updating this as I remember or encounter different things. If you want to add to this list, raise a PR or contact me directly. Especially looking for how-to guides, gists, concise examples or unique, creative examples.
