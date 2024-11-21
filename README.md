@@ -28,15 +28,15 @@ In Haxe, macros are preprocessor functions included in source code which transfo
  
 <br/>
 
-## Individual Examples
+## Library Examples
 
 - **[deepnightLibs Cinematic.hx](https://github.com/deepnight/deepnightLibs/blob/master/src/dn/Cinematic.hx)** - Builds an elegant orchestrator/coroutine system, effectively extends the language by parsing expressions in a bespoke form like `{doStuff() > wait(500)}`. Showcases how operators like `>` can be co-opted for creative uses.
+
+- **[compiletime](https://github.com/jasononeil/compiletime)** - Access compile-time information not normally available during runtime, such as lists of all defined types, all types implementing a certain interface, etc.
 
 <br/>
 
 ## Full Project Examples
-
-- **[compiletime](https://github.com/jasononeil/compiletime)** - Access compile-time information not normally available during runtime, such as lists of all defined types, all types implementing a certain interface, etc.
 
 - **[heaps Res.hx system](https://github.com/HeapsIO/heaps/blob/master/hxd/Res.hx)** - In the `./res/` folder of your source code, provides a static class which reads the folder and adds typed fields for each with full IDE completion. Effectively statically types resource files and gives them IntelliSense.
 
