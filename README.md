@@ -28,6 +28,11 @@ In Haxe, macros are preprocessor functions included in source code which transfo
  
 <br/>
 
+## Guides
+- **[Marc Weber Macro Reification Examples](https://github.com/MarcWeber/haxe-macro-examples/blob/master/Macro.hx)**
+
+<br/>
+
 ## Library Examples
 
 - **[deepnightLibs Cinematic.hx](https://github.com/deepnight/deepnightLibs/blob/master/src/dn/Cinematic.hx)** - Builds an elegant orchestrator/coroutine system, effectively extends the language by parsing expressions in a bespoke form like `{doStuff() > wait(500)}`. Showcases how operators like `>` can be co-opted for creative uses.
@@ -35,6 +40,7 @@ In Haxe, macros are preprocessor functions included in source code which transfo
 - **[compiletime](https://github.com/jasononeil/compiletime)** - Access compile-time information not normally available during runtime, such as lists of all defined types, all types implementing a certain interface, etc.
 
 <br/>
+
 
 ## Full Project Examples
 
