@@ -33,6 +33,11 @@ In Haxe, macros are preprocessor functions included in source code which transfo
 
 <br/>
 
+## Tools
+- **[Easy Online Expr Printer](exprPrinter.md)**
+
+<br/>
+
 ## Library Examples
 
 - **[deepnightLibs Cinematic.hx](https://github.com/deepnight/deepnightLibs/blob/master/src/dn/Cinematic.hx)** - Builds an elegant orchestrator/coroutine system, effectively extends the language by parsing expressions in a bespoke form like `{doStuff() > wait(500)}`. Showcases how operators like `>` can be co-opted for creative uses.
