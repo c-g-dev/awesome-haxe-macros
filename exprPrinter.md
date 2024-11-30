@@ -10,15 +10,16 @@
 class Test {
 	static function main() {
 		trace('Click "Compiler output" above.');
-		Macro.printStr({
-			var _STATE_CACHE:Map<String, Dynamic> = [];
-			_STATE_CACHE["someKey"] = "someVal";
+		Macro.print({
+
+			//put your expr here
+
 		});
 	}
 }
 
 class Macro {
-	public static macro function printStr(e:haxe.macro.Expr):haxe.macro.Expr {
+	public static macro function print(e:haxe.macro.Expr):haxe.macro.Expr {
 		var printExpr:(haxe.macro.Expr, Int) -> Void = null;
 		printExpr = (e, level) -> {
 			var indent = "";
