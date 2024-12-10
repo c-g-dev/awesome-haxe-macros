@@ -30,6 +30,7 @@ In Haxe, macros are preprocessor functions included in source code which transfo
 
 ## Guides
 - **[Marc Weber Macro Reification Examples](https://github.com/MarcWeber/haxe-macro-examples/blob/master/Macro.hx)**
+- **[Local Method Macros](https://github.com/c-g-dev/awesome-haxe-macros/blob/main/Local-Method-Macros.md)**
 
 <br/>
 
